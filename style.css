@@ -1,3 +1,29 @@
 h1{
     color: red;
 }
+
+/* Color Properties
+
+1. RGB - rgb(red value, blue value, green value) |0-255|
+2. HEX - 0-9,A,B,C,D,E,F, #fff
+
+Opacity - Alpha(0-1)
+*/
+
+.heading1{
+    /* color: rgb(255,0,0); */
+    color: rgba(223, 220, 231, 0.952);
+    background-color:hsl(0, 62%, 43%);
+}
+/* Font Properties */
+.heading2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 4rem;
+    font-weight: lighter;
+    font-style: italic;
+}
+.heading3{
+    font-family: "Courier";
+    font-size: 3rem;
+    font-weight: light; /* moto patalo banauxa */
+}
