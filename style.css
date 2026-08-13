@@ -28,6 +28,16 @@ Opacity - Alpha(0-1)
     font-weight: light; /* moto patalo banauxa */
     text-decoration: line-through;
 }
+
+.gradient-box{
+    margin-top: 20px;
+    color: white;
+    height: 200px;
+    width: 100%;
+    background-color: red;
+    background: linear-gradient(45deg, red, blue, green, white);
+    /* background: radial-gradient(red,blue,white,green);*/
+} 
 /* Text Properties */
 .mern{
     text-align: center;
@@ -59,4 +69,27 @@ Opacity - Alpha(0-1)
     padding-block: 30px; /* vertical */
     box-sizing: border-box;
 
+}
+
+.display{
+    display: inline; /*inline, inline-block, block, none, grid, flex */
+    /* inline only has top and bottom margin */
+}
+
+/* Flex Properties */
+
+.container{
+    height: 400px;
+    width: 100%;
+    background-color: brown;
+    display: flex;
+    justify-content: center; /*main axis alignment - left, right, center  */
+    align-items:center; /*cross axis alignment - start, center, end */
+}
+.card{
+    height: 100px;
+    width: 100px;
+    background-color:aqua;
+    border: 3px solid black;
+    
 }
