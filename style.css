@@ -26,4 +26,37 @@ Opacity - Alpha(0-1)
     font-family: "Courier";
     font-size: 3rem;
     font-weight: light; /* moto patalo banauxa */
+    text-decoration: line-through;
+}
+/* Text Properties */
+.mern{
+    text-align: center;
+    text-decoration: underline wavy black;/*type of underline */
+    text-shadow: 3px 6px 2px black; /* horizontal, vertical spread*/
+    letter-spacing: 8px;
+    word-spacing: 20px;
+    
+}
+.para{
+    text-align: justify;
+    text-transform: capitalize; /* uppercase, lowercase, capitalize */
+    line-height: 2;
+
+}
+/*Box Model Properties */
+
+.box{
+    height: 100px;
+    
+    background-color: bisque;
+    width: 100px;
+    /* margin: 20px; outer gap */
+    padding-left:20px; /* inner gap */
+    border: 5px solid black;/* boundary: size type colour */
+    border-top: 5px dotted green;
+    border-bottom: 5px dotted green;
+    margin-inline: 30px; /* for horizontal*/
+    padding-block: 30px; /* vertical */
+    box-sizing: border-box;
+
 }
