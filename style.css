@@ -93,3 +93,41 @@ Opacity - Alpha(0-1)
     border: 3px solid black;
     
 }
+.list{
+     list-style: square; /* disc, circle, square, none */
+}
+.list li:first-child{
+    color: red;
+}
+.list li:nth-child(2n+1){ /*applying css for odd childs*/
+    color: blue;
+}
+/* Unit Properties: px(pixel), rem, em, in, com, vh, vw */
+/* rem: relative to root 
+em: relative to parent */
+.units{
+    border: 3px solid;
+    font-size: 1in;
+
+}
+.unit-box{
+    height: 25vh;
+    width: 100px;
+    background-color: aqua;
+}
+
+/*Positional Properties: static, relative - to parent, absolute - from root, fixed */
+.positional-box{
+    height: 500px;
+    width: 500px;
+    background-color: black;
+    position: relative;
+}
+.child-positional{
+    height: 200px;
+    width: 200px;
+    background-color: pink;
+    position: absolute; 
+    left: 50px;
+    top: 50px;
+}
