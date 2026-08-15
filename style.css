@@ -130,4 +130,32 @@ em: relative to parent */
     position: absolute; 
     left: 50px;
     top: 50px;
+   z-index: 1; /* to bring elements frontward or backward*/
 }
+.fixed-child{
+    height: 200px;
+    width: 200px;
+    background-color: deeppink;
+    position: fixed; 
+    right: 50px;
+    top: 50px;
+    
+}
+.sticky-child{
+    height: 200px;
+    width: 200px;
+    background-color: lightslategray;
+    position: sticky; 
+    top: 50px;
+}
+
+/* pseuco-class (fake class) */
+.pseudo:hover{
+     color: red;
+}
+
+.pseudo:active{
+    color: green;
+}
+
+
