@@ -163,11 +163,15 @@ em: relative to parent */
     border: 1px solid;
     padding: 1 rem;
     display: grid;
+    row-gap: 0.5rem;
+    grid-template-columns: 1fr 3fr 1fr; /*kati ota column rakhne*/
+    /* grid-template-columns: repeat(5, auto); */
 }
 .grid-container .grid-box{
     height: 100px;
-    width: 100px;
+    max-width: 100%;
     margin: 1rem;
     background-color:aqua;
+    
 }
 
