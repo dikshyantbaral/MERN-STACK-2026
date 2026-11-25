@@ -1,0 +1,56 @@
+:root{
+    --primary-color: #2563eb;
+    --text-color: #2563eb;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+/* Header Styles */
+.container{
+    max-width: 1300px;
+    margin:0 auto;
+    padding-inline:  0.5rem; /*Imaginary border*/
+}
+header{
+  
+    padding-block: 1rem;
+    box-shadow: 0 0 10px #ccc;
+}
+.header-items{
+    display: flex;
+    justify-content: space-between;/*horizontal center*/
+    align-items:center;/*vertical center*/
+    gap: 1rem;
+}
+header nav{
+    display: none;
+}
+header nav a{
+    text-decoration: none;
+    color: black;
+}
+header nav a:hover{
+    color: var(--primary-color);
+}
+header .logo{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color:var(--primary-color);
+}
+header .actions{
+    display:flex;
+    gap:0.5rem;
+}
+
+@media(min-width:768px){
+    header nav{
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+    }
+}
